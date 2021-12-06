@@ -1,6 +1,6 @@
 public class Return_type {
 
-   protected void show()
+    void show() throws RuntimeException
     {
         System.out.println("5");
 
@@ -8,7 +8,7 @@ public class Return_type {
 }
 class boy extends Return_type
 {
-    public void show()
+     void show() throws ArithmeticException
     {
         System.out.println("8");
     }
