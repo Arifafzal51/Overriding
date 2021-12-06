@@ -1,15 +1,16 @@
 public class Return_type {
 
-    void show()
+   protected void show()
     {
         System.out.println("5");
+
     }
 }
 class boy extends Return_type
 {
-    void show()
+    public void show()
     {
-        System.out.println();
+        System.out.println("8");
     }
 
     public static void main(String[] args) {
