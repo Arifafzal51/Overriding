@@ -1,5 +1,7 @@
-public class Return_type {
+class Return_type {
 
+
+    abstract void display()
     void show() throws RuntimeException
     {
         System.out.println("5");
